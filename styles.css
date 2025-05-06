@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  scroll-behavior: smooth; /* Ensures smooth scrolling when clicking the contact link */
+}
+
+nav {
+  background-color: #222;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.selectors {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+select {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-icons a {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.contact-icons a:hover {
+  color: #1da1f2;
+}
+
+/* Add space at the top of the contact section to ensure it isn't hidden behind the navbar */
+#contact {
+  padding-top: 70px; /* Adjust according to your navbar height */
+}
